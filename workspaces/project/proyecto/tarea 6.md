@@ -1,10 +1,10 @@
 -
 
 ## 1. Creación de la Base de Datos
-Para comenzar, es necesario crear un archivo de base de datos SQLite e importar la información de los clientes, productos y pedidos.
+
 
 ### **Pasos:**
-1. Abrir una terminal en Windows (**CMD** o **PowerShell**).
+1. Abrir una terminal 
 2. Navegar a la carpeta donde se encuentran los archivos SQL:
    ```bash
    cd C:\proyectos\sqlite
@@ -30,7 +30,7 @@ Para comenzar, es necesario crear un archivo de base de datos SQLite e importar 
 ---
 
 ## 2. Ejecución de Consultas
-Una vez creada la base de datos, se deben ejecutar las consultas requeridas para extraer la información solicitada.
+
 
 ### **Opciones para ejecutar las consultas:**
 1. **Ejecutar todas las consultas automáticamente:**
@@ -192,6 +192,5 @@ SELECT * FROM Productos WHERE nombre GLOB '[aeiouAEIOU]*';
 
 ---
 
-## Conclusión
-Este informe ha descrito el procedimiento detallado para trabajar con SQLite, desde la creación de la base de datos hasta la ejecución y verificación de consultas. Siguiendo estos pasos, se garantiza un correcto análisis de los datos almacenados en la base de datos de clientes, productos y pedidos.
+
 
